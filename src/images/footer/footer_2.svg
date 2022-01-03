@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#C2A995;}
+	.st1{fill:none;stroke:#C2A995;stroke-width:9.2665;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M84.63,233.12c-43.13,0-78.09,34.96-78.09,78.09c0,22.2,9.28,42.21,24.14,56.43
+		c36.57-37.03,73.14-74.06,109.71-111.09C126.22,242.1,106.48,233.12,84.63,233.12z"/>
+	
+		<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -195.2744 150.995)" class="st1" cx="84.63" cy="311.21" rx="78.09" ry="78.09"/>
+	<path class="st0" d="M383.37,4.64c-57.15,58.75-114.29,117.5-171.44,176.25h182.29V4.64L383.37,4.64z"/>
+	<rect x="84.63" y="4.64" class="st1" width="310.07" height="176.25"/>
+	<path class="st1" d="M378.99,9.64C262.89,128.99,146.8,248.34,30.7,367.7"/>
+</g>
+</svg>
