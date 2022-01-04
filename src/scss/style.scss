@@ -2,19 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
-html {
-	font-size: 16px;
+.text-edoras {
+	--tw-text-opacity: 1;
+	color: #C3A995;
 }
-.main_image{
-	z-index: -1;
+.bg-edoras-color {
+	--tw-bg-opacity: 1;
+	background-color: #333333;
 }
-h1{
-	font-style: normal;
-	font-weight: 900;
-	font-size: 88px;
-	line-height: 111px;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
+.bg-edoras-second-color {
+	--tw-bg-opacity: 1;
+	background-color: #C3A995;
 }
-

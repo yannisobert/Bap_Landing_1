@@ -15,13 +15,13 @@ module.exports = {
       'lg': {'max': '1023px'},
       // => @media (max-width: 1023px) { ... }
 
-      'md': {'max': '767px'},
-      // => @media (max-width: 767px) { ... }
+      'md': {'max': '855px'},
+      // => @media (max-width: 855px) { ... }
 
       'sm': {'max': '639px'},
       // => @media (max-width: 639px) { ... }
 
-      'xs': {'max': '420px'},
+      'xs': {'max': '480px'},
       // => @media (max-width: 375px) { ... }
     }
   },
