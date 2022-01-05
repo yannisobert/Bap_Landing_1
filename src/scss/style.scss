@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+// Add class like TailWind
 .text-edoras {
 	--tw-text-opacity: 1;
 	color: #C3A995;
@@ -13,4 +14,26 @@
 .bg-edoras-second-color {
 	--tw-bg-opacity: 1;
 	background-color: #C3A995;
+}
+
+// Part
+.identity_part {
+	margin-top: -30px;
+}
+
+// Footer
+.footer_info_underline {
+	margin-top: -15px;
+	background: rgba(255, 255, 0, 0.51);
+	width: 0;
+	height: 10px;
+	transition: 0.2s;
+}
+.all:hover {
+	.footer_info_underline {
+		width: 95px;
+	}
+}
+.background_image {
+	background-image: url("../images/background_picture.png");
 }
