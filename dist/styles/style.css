@@ -637,14 +637,14 @@ video {
 .mr-8 {
 	margin-right: 2rem;
 }
+.mt-4 {
+	margin-top: 1rem;
+}
 .ml-8 {
 	margin-left: 2rem;
 }
 .mb-4 {
 	margin-bottom: 1rem;
-}
-.mt-4 {
-	margin-top: 1rem;
 }
 .mb-2 {
 	margin-bottom: 0.5rem;
@@ -818,17 +818,17 @@ video {
 .pl-5 {
 	padding-left: 1.25rem;
 }
-.pt-16 {
-	padding-top: 4rem;
-}
-.pb-16 {
-	padding-bottom: 4rem;
-}
 .pr-4 {
 	padding-right: 1rem;
 }
 .pl-4 {
 	padding-left: 1rem;
+}
+.pt-16 {
+	padding-top: 4rem;
+}
+.pb-16 {
+	padding-bottom: 4rem;
 }
 .text-center {
 	text-align: center;
