@@ -790,6 +790,12 @@ video {
 .pt-32 {
 	padding-top: 8rem;
 }
+.pt-16 {
+	padding-top: 4rem;
+}
+.pb-16 {
+	padding-bottom: 4rem;
+}
 .text-center {
 	text-align: center;
 }
@@ -865,6 +871,30 @@ video {
   background-color: #C3A995;
 }
 
+.line {
+  position: relative;
+}
+.line::before {
+  content: " ";
+  position: absolute;
+  width: 1px;
+  left: 25%;
+  top: 0;
+  bottom: 0;
+  background: #707070;
+  z-index: 0;
+}
+.line::after {
+  content: " ";
+  position: absolute;
+  width: 1px;
+  right: 25%;
+  top: 0;
+  bottom: 0;
+  background: #707070;
+  z-index: 0;
+}
+
 .identity_part {
   margin-top: -30px;
 }
@@ -883,6 +913,11 @@ video {
 
 .background_image {
   background-image: url(/images/background_picture.png?003a54ecf92adacccbe3643880407fd4);
+}
+
+input {
+  padding: 8px;
+  background: #EDEDED;
 }
 
 @media (max-width: 1023px) {

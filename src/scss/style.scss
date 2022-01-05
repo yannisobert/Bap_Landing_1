@@ -16,6 +16,34 @@
 	background-color: #C3A995;
 }
 
+// Verticals Lines
+.line {
+	position: relative;
+
+	&::before {
+		content: " ";
+		position: absolute;
+		width: 1px;
+		left: 25%;
+		top: 0;
+		bottom: 0;
+		background: #707070;
+		z-index: 0;
+	}
+
+	&::after {
+		content: " ";
+		position: absolute;
+		width: 1px;
+		right: 25%;
+		top: 0;
+		bottom: 0;
+		background: #707070;
+		z-index: 0;
+	}
+}
+
+
 // Part
 .identity_part {
 	margin-top: -30px;
@@ -36,4 +64,10 @@
 }
 .background_image {
 	background-image: url("../images/background_picture.png");
+}
+
+
+input {
+	padding: 8px;
+	background: #EDEDED;
 }
