@@ -161,27 +161,41 @@
     </section>
 
     <section class="pt-32 text-white w-screen flex flex-col justify-center line">
-        <div class="flex justify-center mb-8 relative z-50"">
-            <div class="h-auto flex justify-between w-10/12">
-                <div>
+        <div class="flex justify-center mb-8 sm:hidden">
+            <div class="h-auto flex justify-between w-10/12 md:w-full">
+                <div class="w-1/4 mr-8">
                     <img src="images/picture/picture_one.png" alt="picture">
                 </div>
-
-                <div class="flex flex-col justify-between">
+                <div class="flex flex-col justify-between w-2/4">
                     <img src="images/picture/picture_two.png" alt="picture">
                     <div class="flex flex-col justify-end">
-                        <div class="flex justify-between">
-                            <img src="images/picture/picture_third.png" alt="picture">
-                            <img src="images/picture/picture_fourth.png" alt="picture">
+                        <div class="flex justify-between mt-4">
+                            <img class="w-1/2 pr-4" src="images/picture/picture_third.png" alt="picture">
+                            <img class="w-1/2 pl-4" src="images/picture/picture_fourth.png" alt="picture">
                         </div>
                     </div>
                 </div>
 
-                <div>
+                <div class="w-1/4 ml-8">
                     <img src="images/picture/picture_fifth.png" alt="picture">
                 </div>
             </div>
         </div>
+
+
+        <div class="hidden sm:flex sm:justify-around sm:mb-16">
+            <div class="w-2/5 flex flex-col justify-center">
+                <img class="mb-4" src="images/picture/picture_one.png" alt="">
+                <img class="mt-4" src="images/picture/picture_fourth.png" alt="">
+            </div>
+            <div class="w-2/5 flex flex-col justify-center">
+                <img class="mb-2" src="images/picture/picture_two.png" alt="">
+                <img class="mt-2 mb-2" src="images/picture/picture_third.png" alt="">
+                <img class="mt-2" src="images/picture/picture_fifth.png" alt="">
+
+            </div>
+        </div>
+
         <div class="flex justify-center md:text-center sm:block relative z-50"">
             <div class="w-5/12 flex flex-col justify-center pr-20 md:w-2/3 sm:w-full sm:pr-0">
                 <h2 class="text-3xl font-bold flex justify-center mb-12">Des expériences digitales adaptées à vos utilisateurs</h2>
