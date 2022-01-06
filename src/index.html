@@ -15,7 +15,7 @@
     <header class="h-28 w-screen fixed bg-edoras-color flex justify-between z-50 md:static line">
         <div class="w-screen flex justify-center"> <div class="flex justify-between w-10/12">
             <img class="bg-edoras-color h-16 mt-8 xs:ml-0 relative z-50" src="images/main_logo.png" alt="logo">
-            <a class="button_hover border text-white h-8 pl-8 pr-8 flex flex-col justify-center mr-16 mt-8 xs:mr-0 relative z-50" href="#contact_form"><p>Echangeons</p></a>
+            <a href="#contact_form" class="mt-8"><p class="button_hover pt-2 pb-2 pl-6 border w-36 text-white">Echangeons</p></a>
         </div> </div>
     </header>
 
@@ -100,7 +100,7 @@
             </div>
         </div>
         <div class="flex justify-center">
-            <a class="button_hover border text-white h-8 pl-8 pr-8 flex flex-col justify-center mr-16 xs:mr-0" href="#contact_form"><p>Echangeons</p></a>
+            <a href="#contact_form"><p class="button_hover pt-2 pb-2 pl-6 border w-36 text-white">Echangeons</p></a>
         </div>
     </section>
 
@@ -142,7 +142,7 @@
                     <img src="images/accompagnement/accompagnement_fourth.png" alt="" class="col-start-3 col-end-4">
                 </div>
                 <div class="flex justify-center relative z-50">
-                    <a class="button_hover border text-white h-8 pl-8 pr-8 flex flex-col justify-center mr-16 mt-8 xs:mr-0" href="#contact_form"><p>Echangeons</p></a>
+                    <a href="#contact_form"><p class="button_hover pt-2 pb-2 pl-6 border w-36 text-white">Echangeons</p></a>
                 </div>
             </div>
         </div>
@@ -180,8 +180,8 @@
                 <h2 class="text-4xl font-bold mb-12">Une identité forte et fédératrice, proche de vos valeurs</h2>
                 <p class="text-xs leading-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet odio id efficitur iaculis. Vestibulum ac velit id lorem tincidunt semper nec id mi. Vivamus aliquet sodales faucibus. Ut sit amet tempor orci. Sed suscipit feugiat dui, id maximus velit facilisis a. Aliquam auctor libero ac sapien porta posuere. Mauris id ipsum vitae nisi consectetur pulvinar. In rutrum convallis erat vel accumsan. Pellentesque sit amet mattis ligula. Etiam faucibus consequat eros et sagittis. Aliquam at mattis risus. Suspendisse potenti. Vivamus eu risus at arcu placerat sollicitudin. Duis porttitor justo sed elementum gravida. In ornare faucibus tellus vitae rutrum.
                 </p>
-                <div class="sm:flex sm:justify-center sm:w-full">
-                    <a class="button_hover border text-white h-8 pl-8 pr-8 flex flex-col justify-center w-40 mr-16 mt-8 xs:mr-0" href="#contact_form"><p>Echangeons</p></a>
+                <div class="sm:flex sm:justify-center mt-8 sm:w-full">
+                    <a href="#contact_form"><p class="button_hover pt-2 pb-2 pl-6 border w-36 text-white">Echangeons</p></a>
                 </div>
             </div>
             <div class="identity_part w-5/12 pl-20 flex flex-col justify-center md:pl-0 md:w-1/3 sm:w-screen sm:flew-row sm:mt-16">
@@ -266,7 +266,7 @@
         </div>
         <div class="w-screen flex justify-center">
             <div class="flex justify-center w-10/12 sm:flex-col relative z-50">
-                <form action="POST" class="flex flex-col w-3/5">
+                <form action="mail.php" method="POST" class="flex flex-col w-3/5">
                     <p>Nom</p>
                     <input type="text" name="name" type="text" placeholder="Saisir un nom" class="pb-8">
                     <p>Prénom</p>
@@ -275,9 +275,9 @@
                     <input type="text" name="email" placeholder="Saisir email" class="pb-8">
                     <p>Message</p>
                     <input type="text" name="message" placeholder="Saisir votre message" class="pb-16">
-                    <a class="bg-edoras-second-color text-white h-8 w-32 flex justify-center" href="#contact_form"><p>Echangeons</p></a>
+                    <button type="submit"><p class="pt-2 pb-2 border w-36 bg-edoras-second-color text-white">Echangeons</p></button>
                 </form>
-                <div class="w-2/5 flex justify-center sm:w-full sm:mt-8 relative z-50">
+                <div class="w-2/5 flex justify-center md:w-auto sm:w-full sm:mt-8 relative z-50">
                     <img  src="images/illustration/phone.png" alt="phone">
                 </div>
             </div>
@@ -287,7 +287,7 @@
     <!--Footer Part-->
     <footer class="flex flex-col w-screen justify-center h-96 text-xs text-white w-screen leading-8 sm:h-full sm:ml-0">
         <div class="flex justify-center">
-            <div class="w-11/12 sm:none">
+            <div class="w-10/12 sm:none">
                 <hr class="text-yellow-400">
             </div>
         </div>
