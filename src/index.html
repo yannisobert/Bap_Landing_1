@@ -13,19 +13,23 @@
 
     <!--Menu Part-->
     <header class="h-28 w-screen fixed bg-edoras-color flex justify-between z-50 md:static line">
-        <img class="bg-edoras-color h-16 ml-16 mt-8 xs:ml-0 relative z-50" src="images/main_logo.png" alt="logo">
-        <a class="button_hover border text-white h-8 pl-8 pr-8 flex flex-col justify-center mr-16 mt-8 xs:mr-0 relative z-50" href="#contact_form"><p>Echangeons</p></a>
+        <div class="w-screen flex justify-center"> <div class="flex justify-between w-10/12">
+            <img class="bg-edoras-color h-16 mt-8 xs:ml-0 relative z-50" src="images/main_logo.png" alt="logo">
+            <a class="button_hover border text-white h-8 pl-8 pr-8 flex flex-col justify-center mr-16 mt-8 xs:mr-0 relative z-50" href="#contact_form"><p>Echangeons</p></a>
+        </div> </div>
     </header>
 
     <!--First Part-->
     <section class="first_part flex flex-col justify-center h-screen w-screen flex flex-col justify-center text-white md:h-auto line">
-        <div class="flex justify-center md:block relative z-50">
-            <div class="w-5/12 mt-16 flex flex-col justify-center md:w-11/12 md:text-center md:p-0 md:flex md:justify-center md:w-full">
-                <h1 class="text-4xl font-bold">Mettez en <span class="text-edoras">valeur</span> votre savoir faire en ligne</h1>
-                <p class="mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet odio id efficitur iaculis. Vestibulum ac velit id lorem tincidunt semper nec id mi. Vivamus aliquet sodales faucibus. Ut sit amet tempor orci. Sed suscipit feugiat dui, id maximus velit facilisis a.</p>
-            </div>
-            <div class="w-5/12 mt-16 pr-20 md:w-full md:flex md:justify-center">
-                <img class="md:w-1/2 xs:w-full" src="images/illustration/desktop.png" alt="desktop">
+        <div class="w-screen flex justify-center">
+            <div class="flex justify-center w-10/12 md:block relative z-50">
+                <div class="w-1/2 mt-16 flex flex-col justify-center md:w-11/12 md:text-center md:p-0 md:flex md:justify-center md:w-full">
+                    <h1 class="text-4xl font-bold">Mettez en <span class="text-edoras">valeur</span> votre savoir faire en ligne</h1>
+                    <p class="mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet odio id efficitur iaculis. Vestibulum ac velit id lorem tincidunt semper nec id mi. Vivamus aliquet sodales faucibus. Ut sit amet tempor orci. Sed suscipit feugiat dui, id maximus velit facilisis a.</p>
+                </div>
+                <div class="w-1/2 mt-16 md:w-full md:flex md:justify-center">
+                    <img class="md:w-1/2 xs:w-full" src="images/illustration/desktop.png" alt="desktop">
+                </div>
             </div>
         </div>
     </section>
@@ -35,62 +39,64 @@
         <h2 class="flex justify-center text-4xl font-bold text-center relative z-50"">A chaque besoin sa</h2>
         <h2 class="flex justify-center text-4xl text-edoras font-bold text-center relative z-50"">solution</h2>
 
-        <div class="flex justify-around text-xs mt-24 mb-24 relative z-50"">
-            <div class="flex justify-center w-1/2 justify-around md:block">
-                <article>
-                    <div class="w-full flex justify-center">
-                        <img class="h-52 md:h-auto sm:h-40" src="images/solution/icon_statut.png" alt="statut">
-                    </div>
-                    <h3 class="flex justify-center mt-8 mb-6 font-bold">Identité visuelle</h3>
-                    <div class="w-full flex justify-center">
-                        <ul>
-                            <li>- Lorem</li>
-                            <li>- Lorem</li>
-                            <li>- Lorem</li>
-                        </ul>
-                    </div>
-                </article>
-                <article>
-                    <div class="w-full flex justify-center">
-                        <img class="h-52 md:h-auto sm:h-40" src="images/solution/icon_wireframe.png" alt="tablette">
-                    </div>
-                    <h3 class="flex justify-center mt-8 mb-6 font-bold">Web digital</h3>
-                    <div class="w-full flex justify-center">
-                        <ul>
-                            <li>- Lorem</li>
-                            <li>- Lorem</li>
-                            <li>- Lorem</li>
-                        </ul>
-                    </div>
-                </article>
-            </div>
-            <div class="flex justify-center w-1/2 justify-around md:block">
-                <article>
-                    <div class="w-full flex justify-center">
-                        <img class="h-52 md:h-auto sm:h-40" src="images/solution/icon_book.png" alt="books">
-                    </div>
-                    <h3 class="flex justify-center mt-8 mb-6 font-bold">Communication imprimée</h3>
-                    <div class="w-full flex justify-center">
-                        <ul>
-                            <li>- Lorem</li>
-                            <li>- Lorem</li>
-                            <li>- Lorem</li>
-                        </ul>
-                    </div>
-                </article>
-                <article>
-                    <div class="w-full flex justify-center">
-                        <img class="h-52 md:h-auto sm:h-40" src="images/solution/icon_ordi.png" alt="computer">
-                    </div>
-                    <h3 class="flex justify-center mt-8 mb-6 font-bold">Prototype</h3>
-                    <div class="w-full flex justify-center">
-                        <ul>
-                            <li>- Lorem</li>
-                            <li>- Lorem</li>
-                            <li>- Lorem</li>
-                        </ul>
-                    </div>
-                </article>
+        <div class="w-screen flex justify-center">
+            <div class="flex justify-around w-10/12 text-xs mt-24 mb-24 relative z-50">
+                <div class="flex justify-center w-1/2 justify-around md:block sm:w-2/5">
+                    <article class="sm:pb-8">
+                        <div class="w-full flex justify-center">
+                            <img class="h-52 md:h-auto sm:h-36" src="images/solution/icon_statut.png" alt="statut">
+                        </div>
+                        <h3 class="flex justify-center mt-8 mb-6 font-bold">Identité visuelle</h3>
+                        <div class="w-full flex justify-center">
+                            <ul>
+                                <li>- Lorem</li>
+                                <li>- Lorem</li>
+                                <li>- Lorem</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="w-full flex justify-center">
+                            <img class="h-52 md:h-auto sm:h-36" src="images/solution/icon_wireframe.png" alt="tablette">
+                        </div>
+                        <h3 class="flex justify-center mt-8 mb-6 font-bold">Web digital</h3>
+                        <div class="w-full flex justify-center">
+                            <ul>
+                                <li>- Lorem</li>
+                                <li>- Lorem</li>
+                                <li>- Lorem</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="flex justify-center w-1/2 justify-around md:block sm:w-2/5">
+                    <article class="sm:pb-5">
+                        <div class="w-full flex justify-center">
+                            <img class="h-52 md:h-auto sm:h-36" src="images/solution/icon_book.png" alt="books">
+                        </div>
+                        <h3 class="flex justify-center mt-8 mb-6 font-bold">Communication imprimée</h3>
+                        <div class="w-full flex justify-center">
+                            <ul>
+                                <li>- Lorem</li>
+                                <li>- Lorem</li>
+                                <li>- Lorem</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="w-full flex justify-center">
+                            <img class="h-52 md:h-auto sm:h-36" src="images/solution/icon_ordi.png" alt="computer">
+                        </div>
+                        <h3 class="flex justify-center mt-8 mb-6 font-bold">Prototype</h3>
+                        <div class="w-full flex justify-center">
+                            <ul>
+                                <li>- Lorem</li>
+                                <li>- Lorem</li>
+                                <li>- Lorem</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
             </div>
         </div>
         <div class="flex justify-center">
@@ -248,35 +254,41 @@
     </section>
 
     <!--Contact Form Part-->
-    <section id="contact_form" class="w-screen bg-white pt-32 pb-16 flex flex-col  text-gray-600 line">
-        <h2 class="text-4xl text-black ml-16 font-bold relative z-50 pb-16">Échangeons !</h2>
-        <div class="flex justify-center w-11/12 sm:flex-col relative z-50">
-            <form action="POST" class="flex flex-col w-3/5">
-                <p>Nom</p>
-                <input type="text" name="name" type="text" placeholder="Saisir un nom" class="pb-8">
-                <p>Prénom</p>
-                <input type="email" name="surname" type="text" placeholder="Saisir un prénom" class="pb-8">
-                <p>Email</p>
-                <input type="text" name="email" placeholder="Saisir email" class="pb-8">
-                <p>Message</p>
-                <input type="text" name="message" placeholder="Saisir votre message" class="pb-16">
-                <a class="bg-edoras-second-color text-white h-8 w-32 flex justify-center" href="#contact_form"><p>Echangeons</p></a>
-            </form>
-            <div class="w-2/5 flex justify-center sm:w-full sm:mt-8 relative z-50">
-                <img  src="images/illustration/phone.png" alt="phone">
+    <section id="contact_form" class="w-screen bg-white pt-32 pb-16 flex flex-col justify-center text-gray-600 line">
+        <div class="w-screen flex justify-center">
+            <div class="w-11/12">
+                <h2 class="text-4xl text-black ml-16 font-bold relative z-50 pb-16">Échangeons !</h2>
+            </div>
+        </div>
+        <div class="w-screen flex justify-center">
+            <div class="flex justify-center w-10/12 sm:flex-col relative z-50">
+                <form action="POST" class="flex flex-col w-3/5">
+                    <p>Nom</p>
+                    <input type="text" name="name" type="text" placeholder="Saisir un nom" class="pb-8">
+                    <p>Prénom</p>
+                    <input type="email" name="surname" type="text" placeholder="Saisir un prénom" class="pb-8">
+                    <p>Email</p>
+                    <input type="text" name="email" placeholder="Saisir email" class="pb-8">
+                    <p>Message</p>
+                    <input type="text" name="message" placeholder="Saisir votre message" class="pb-16">
+                    <a class="bg-edoras-second-color text-white h-8 w-32 flex justify-center" href="#contact_form"><p>Echangeons</p></a>
+                </form>
+                <div class="w-2/5 flex justify-center sm:w-full sm:mt-8 relative z-50">
+                    <img  src="images/illustration/phone.png" alt="phone">
+                </div>
             </div>
         </div>
     </section>
 
     <!--Footer Part-->
-    <footer class="flex flex-col justify-center h-96 text-xs text-white w-screen leading-8 sm:h-full sm:ml-0">
+    <footer class="flex flex-col w-screen justify-center h-96 text-xs text-white w-screen leading-8 sm:h-full sm:ml-0">
         <div class="flex justify-center">
             <div class="w-11/12 sm:none">
                 <hr class="text-yellow-400">
             </div>
         </div>
-        <div class="flex justify-center">
-            <div class="w-11/12 flex justify-center mt-16 sm:flex-col">
+        <div class="flex justify-center w-screen">
+            <div class="w-10/12 flex justify-center mt-16 sm:flex-col">
                 <div class="w-1/3 sm:w-full sm:ml-10 sm:mb-4">
                     <img src="images/main_logo.png" alt="phone">
                 </div>
