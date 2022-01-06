@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 // Font
-
+* {
+	font-family: 'Roboto', sans-serif;
+}
 // Add class like TailWind
 .text-edoras {
 	--tw-text-opacity: 1;
