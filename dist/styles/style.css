@@ -850,6 +850,9 @@ video {
 .pl-4 {
 	padding-left: 1rem;
 }
+.pt-8 {
+	padding-top: 2rem;
+}
 .pt-16 {
 	padding-top: 4rem;
 }
@@ -1152,6 +1155,10 @@ input {
 
 	.sm\:pr-0 {
 		padding-right: 0px;
+	}
+
+	.sm\:pt-8 {
+		padding-top: 2rem;
 	}
 
 	.sm\:text-center {
