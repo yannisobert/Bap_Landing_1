@@ -52,11 +52,13 @@
 // Footer
 .footer_info_underline {
 	margin-top: -15px;
-	background: rgba(255, 255, 0, 0.51);
+	background: #CCB29E;
+	color: white;
 	width: 0;
 	height: 10px;
 	transition: 0.2s;
 }
+
 .all:hover {
 	.footer_info_underline {
 		width: 95px;
@@ -82,5 +84,9 @@ input {
 	background-image: linear-gradient(to right top, #faa7e4, #f395e5, #e983e9, #dc72ee, #cb63f4);
 	font-size:36px;
 	text-align: center;
-	font-family: 'Raleway', Arial, sans-serif;
+}
+
+.button_hover:hover {
+	background: white;
+	color: #333333;
 }
