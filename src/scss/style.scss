@@ -62,12 +62,25 @@
 		width: 95px;
 	}
 }
-.background_image {
-	background-image: url("../images/background_picture.png");
-}
-
 
 input {
 	padding: 8px;
 	background: #EDEDED;
+}
+
+// Parallax effect
+.background_image {
+	background-image: url("../images/background_picture.png");
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.background_image + div{
+	height:1000px;
+	background-image: linear-gradient(to right top, #faa7e4, #f395e5, #e983e9, #dc72ee, #cb63f4);
+	font-size:36px;
+	text-align: center;
+	font-family: 'Raleway', Arial, sans-serif;
 }
