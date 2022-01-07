@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-edoras-color">
+<body class="bg-edoras-color w-screen">
 
     <!--Menu Part-->
     <header class="h-28 w-screen fixed bg-edoras-color flex justify-between z-50 md:static line">
@@ -270,7 +270,7 @@
         </div>
         <div class="w-screen flex justify-center">
             <div class="flex justify-center w-10/12 sm:flex-col relative z-50">
-                <form action="mail.php" method="POST" class="flex flex-col w-3/5">
+                <form action="mail.php" method="POST" class="flex flex-col w-3/5 sm:w-full">
                     <p>Nom</p>
                     <input type="text" name="name" type="text" placeholder="Saisir un nom" class="pb-8">
                     <p>Prénom</p>
@@ -278,7 +278,7 @@
                     <p>Email</p>
                     <input type="text" name="email" placeholder="Saisir email" class="pb-8">
                     <p>Message</p>
-                    <input type="text" name="message" placeholder="Saisir votre message" class="pb-16">
+                    <textarea type="text" name="message" placeholder="Saisir votre message" class="pb-16"></textarea>
                     <button type="submit"><p class="pt-2 pb-2 border w-36 bg-edoras-second-color text-white">Echangeons</p></button>
                 </form>
                 <div class="w-2/5 flex justify-center md:w-auto sm:w-full sm:mt-8 relative z-50">
