@@ -588,12 +588,6 @@ video {
 .relative {
 	position: relative;
 }
-.right-0 {
-	right: 0px;
-}
-.bottom-0 {
-	bottom: 0px;
-}
 .right-28 {
 	right: 7rem;
 }
@@ -819,9 +813,6 @@ video {
 .pt-32 {
 	padding-top: 8rem;
 }
-.pb-96 {
-	padding-bottom: 24rem;
-}
 .pt-14 {
 	padding-top: 3.5rem;
 }
@@ -948,6 +939,10 @@ video {
 .bg-edoras-second-color {
   --tw-bg-opacity: 1;
   background-color: #C3A995;
+}
+
+.bg-rectangle {
+  background: #1C1C1C;
 }
 
 .line {
